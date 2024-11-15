@@ -83,20 +83,9 @@ Lend-or-Lose/
 
 In the final notebook, the models were evaluated using accuracy and classification reports. Early stopping was used in the Gradient Boosting model to prevent overfitting. The final accuracy and the classification report are shown for the validation set.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
 - Dataset: [Add any dataset source or acknowledgment here if necessary]
 - Libraries: `scikit-learn`, `pandas`, `numpy`, `matplotlib`
 
-
-### How to Edit:
-
-- Section Titles: Feel free to adjust any titles like "Project Overview" or "Model Evaluation" based on your project details.
-- Dependencies: Ensure the installation steps match your actual dependencies. You can add any other libraries you’ve used that aren't in the example.
-- Explanation of Code: Make sure the references to notebooks and files (like `Lend-or-Lose-Final.ipynb`) match your actual file names and paths.
-
-This should give anyone reading the README a clear guide on how to run the project, understand its structure, and get started with their own exploration or improvements.
