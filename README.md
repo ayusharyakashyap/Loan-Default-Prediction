@@ -1,6 +1,5 @@
 Here’s a template for your `README.md` file for the ML project:
 
-```markdown
 # Loan Default Prediction: Lend-or-Lose Project
 
 ## Project Overview
@@ -9,10 +8,10 @@ This project aims to predict loan defaults using a dataset of financial data. Th
 
 ### Files Included
 
-1. **train.csv**: Contains the training data used for building the model. It includes features like loan amount, credit score, income, employment details, and a target variable `Default` (1 for default, 0 for no default).
-2. **test.csv**: Contains the test data used for predicting loan defaults. The test data doesn't have the target variable `Default`, which is predicted using the model.
-3. **Lend-or-Lose-Final.ipynb**: The main notebook containing the code for data preprocessing, feature engineering, model building, evaluation, and final prediction. This includes multiple machine learning models and their evaluation metrics.
-4. **Miscellaneous**: A folder containing rough/experimental code in `.ipynb` files. These are intermediate steps and attempts used in the development of the final model.
+1. train.csv: Contains the training data used for building the model. It includes features like loan amount, credit score, income, employment details, and a target variable `Default` (1 for default, 0 for no default).
+2. test.csv: Contains the test data used for predicting loan defaults. The test data doesn't have the target variable `Default`, which is predicted using the model.
+3. Lend-or-Lose-Final.ipynb: The main notebook containing the code for data preprocessing, feature engineering, model building, evaluation, and final prediction. This includes multiple machine learning models and their evaluation metrics.
+4. Miscellaneous: A folder containing rough/experimental code in `.ipynb` files. These are intermediate steps and attempts used in the development of the final model.
 
 ## How to Use
 
@@ -26,9 +25,9 @@ pip install pandas scikit-learn numpy
 
 Additional libraries used in the project:
 
-- **pandas**: For data manipulation.
-- **scikit-learn**: For machine learning algorithms, data preprocessing, and model evaluation.
-- **numpy**: For numerical operations.
+- pandas: For data manipulation.
+- scikit-learn: For machine learning algorithms, data preprocessing, and model evaluation.
+- numpy: For numerical operations.
 
 ### Step 2: Load the Data
 
@@ -65,7 +64,7 @@ submission.to_csv('submission.csv', index=False)
 
 ### Step 5: Explore Miscellaneous Notebooks
 
-In the **Miscellaneous** folder, you will find various exploratory and rough codes that were tested during the project. These include different attempts for feature engineering, model evaluation, and visualization.
+In the Miscellaneous folder, you will find various exploratory and rough codes that were tested during the project. These include different attempts for feature engineering, model evaluation, and visualization.
 
 Feel free to explore and use these for reference or further improvement.
 
@@ -93,12 +92,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Dataset: [Add any dataset source or acknowledgment here if necessary]
 - Libraries: `scikit-learn`, `pandas`, `numpy`, `matplotlib`
 
-```
 
 ### How to Edit:
 
-- **Section Titles**: Feel free to adjust any titles like "Project Overview" or "Model Evaluation" based on your project details.
-- **Dependencies**: Ensure the installation steps match your actual dependencies. You can add any other libraries you’ve used that aren't in the example.
-- **Explanation of Code**: Make sure the references to notebooks and files (like `Lend-or-Lose-Final.ipynb`) match your actual file names and paths.
+- Section Titles: Feel free to adjust any titles like "Project Overview" or "Model Evaluation" based on your project details.
+- Dependencies: Ensure the installation steps match your actual dependencies. You can add any other libraries you’ve used that aren't in the example.
+- Explanation of Code: Make sure the references to notebooks and files (like `Lend-or-Lose-Final.ipynb`) match your actual file names and paths.
 
 This should give anyone reading the README a clear guide on how to run the project, understand its structure, and get started with their own exploration or improvements.
