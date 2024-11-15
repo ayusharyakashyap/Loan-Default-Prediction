@@ -1,5 +1,3 @@
-Here’s a template for your `README.md` file for the ML project:
-
 # Loan Default Prediction: Lend-or-Lose Project
 
 ## Project Overview
